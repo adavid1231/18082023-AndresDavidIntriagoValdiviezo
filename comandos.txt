@@ -1,0 +1,20 @@
+   30  git init
+   31  git remote
+   32  git remote add origin https://github.com/adavid1231/18082023-AndresDavidIntriagoValdiviezo.git
+   33  git pull origin main
+   34  touch main.js index.html
+   35  git add .
+   36  git commit -m 'primer commit'
+   37  git push origin main
+   38  git branch feature
+   39  git checkout feature
+   40  mkdir Hardware Software SeguridadInformatica
+   41  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   42  git push origin feature
+   43  git checkout main
+   44  mv main.js resumenHardware.txt index.html resumenSoftware.txt
+   45  mv main.js resumenHardware.txt
+   46  mv index.html resumenSoftware.txt
+   47  git add .
+   48  touch comandos.txt
+   49  history 20 > comandos.txt
